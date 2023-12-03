@@ -1,0 +1,20 @@
+scenery:
+  name: Name
+  center:
+    lat: 0.0000000
+    lon: 0.0000000
+  tiles:
+    x: 4
+    y: 4
+  textures:
+    source: google #WMS, WMTS, google, bing, usgs 
+  wms:
+    url: https://my.server/?
+    layer: 1
+    crs: 1234
+  wmts:
+    url: https://tile.server/{x}/{y}/{z}
+  airfields:
+    - ABCD
+  # options:
+    # use_multi_res: false
