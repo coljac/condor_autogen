@@ -1,0 +1,24 @@
+scenery:
+  name: Bacchus
+  version: 0.1.0
+  output: /ssd/condor/Landscapes
+  center:
+    lat: -37.695021
+    lon: 144.100390
+  tiles:
+    x: 4
+    y: 4
+  textures:
+    source: WMS #WMS, WMTS, Google, Bing, USGS, Azure, Here
+  WMS:
+    url: https://base.maps.vic.gov.au/service?
+    layer: 9
+    crs: 7899
+    token: ""
+  WMTS:
+    url: https://base.maps.vic.gov.au/{x}/{y}/{z}
+    token: ""
+  airfields:
+    - YBSS 
+  # options:
+    # use_multi_res: false
